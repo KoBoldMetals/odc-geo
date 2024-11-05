@@ -188,7 +188,7 @@ class MPUChunk:
             return len(_data)
 
         def can_flush(pw: PartsWriter):
-            if self.write_credits < 1:
+            if self.write_credits < 1 and not self.is_final:
                 return False
             if self.started_write:
                 return self.is_final or len(data) >= pw.min_write_sz
