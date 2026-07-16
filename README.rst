@@ -1,3 +1,13 @@
+.. important::
+
+   **This repository is archived**
+
+   This was a fork of `odc-geo`_ that KoBold Metals no longer uses. It is no
+   longer maintained here — use the upstream `opendatacube/odc-geo`_ instead.
+
+.. _`odc-geo`: https://github.com/opendatacube/odc-geo
+.. _`opendatacube/odc-geo`: https://github.com/opendatacube/odc-geo
+
 odc.geo
 #######
 
